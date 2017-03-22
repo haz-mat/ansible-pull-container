@@ -1,6 +1,7 @@
 ---
 - name: ansible-pull
   hosts: localhost
+  gather_facts: True
   tasks:
     - debug: msg={{ hostvars }}
   
