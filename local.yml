@@ -1,0 +1,6 @@
+---
+- name: ansible-pull
+  hosts: localhost
+  tasks:
+    - debug: msg={{ hostvars }}
+  
