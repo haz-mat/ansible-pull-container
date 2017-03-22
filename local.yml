@@ -3,5 +3,5 @@
   hosts: localhost
   gather_facts: True
   tasks:
-    - debug: msg={{ hostvars }}
+    - debug: msg={{ ansible_facts }}
   
